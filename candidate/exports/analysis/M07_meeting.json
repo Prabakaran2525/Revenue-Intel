@@ -1,0 +1,50 @@
+{
+  "record_ref": "M07",
+  "source_type": "meeting",
+  "source_id": "4f304fff-fd40-5cfc-a366-0a134c445c2a",
+  "route": "customer_success",
+  "manual_override": false,
+  "analysis_stale": true,
+  "summary": "Customer support session with Willowfield Trust. Customer A demonstrated multiple bugs: (1) description field not saving changes, (2) document upload failing on 'Recreate payment' screen (workaround identified via invoice inbox route), (3) reimbursement transactions stuck in 'Processing' state, (4) 'Mark as paid' carrying forward previous payment amount. Team member A captured evidence and committed to escalating to the development team.",
+  "key_findings": [
+    "BUGS REPORTED — 4 distinct issues affecting customer workflow:",
+    "Bug 1: Description edits not persisting after save.",
+    "Bug 2: Document upload fails on 'Recreate payment' screen (workaround: use invoice inbox Review).",
+    "Bug 3: Reimbursement payments stuck in Processing (should show as completed).",
+    "Bug 4: 'Mark as paid' carrying forward previous item's amount (refresh issue).",
+    "Team member A documented issues with screenshots and promised same-day investigation."
+  ],
+  "evidence": [
+    {
+      "type": "turn",
+      "turnNum": 2,
+      "text": "The first one is editing the description. I am changing this event-payment description to a short reference and clicking Save changes.",
+      "ref": "M07"
+    },
+    {
+      "type": "turn",
+      "turnNum": 8,
+      "text": "Next is Recreate payment. Can we look at that here? When I go through this route, I cannot upload a document.",
+      "ref": "M07"
+    },
+    {
+      "type": "turn",
+      "turnNum": 16,
+      "text": "The next issue is in reimbursements. I cannot select the first group of transactions on this screen.",
+      "ref": "M07"
+    },
+    {
+      "type": "turn",
+      "turnNum": 22,
+      "text": "The amount from the previous item appears in the next one. Each time I have to cancel, leave it and open Mark as paid again before it shows the right information.",
+      "ref": "M07"
+    }
+  ],
+  "next_actions": [
+    "Escalate all 4 bugs to development team with screenshots.",
+    "Provide update to customer on bug investigation (promised same-day or Monday).",
+    "Document the upload workaround for other affected users.",
+    "Check if Processing-stuck issue affects other users."
+  ],
+  "coaching_notes": "Team member A handled the support session well — acknowledged issues, captured evidence, identified workarounds, and set clear expectations. Good practice: 'The workaround does not mean the direct upload issue has been resolved' (Turn 15) — important to not let workarounds become permanent."
+}

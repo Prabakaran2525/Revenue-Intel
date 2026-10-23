@@ -1,0 +1,51 @@
+{
+  "record_ref": "M01",
+  "source_type": "meeting",
+  "source_id": "cb5cecac-e68d-52b7-b10b-b0c748efc467",
+  "route": "partnership",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Detailed partnership discussion with Harborpath Advisory. Partner A wants to offer SpendNest's virtual business accounts to their US-entity clients. Commission structure discussed: USD 260 per activation, interchange revenue share, and volume bonuses. Partner requested a scalable referral link rather than manual email introductions. Key limitations communicated: no card-payment acceptance (bank transfers only), funding requirement.",
+  "key_findings": [
+    "Partner already recommends similar providers but receives no commission — commercial incentive is clear.",
+    "USD 260 activation commission + spend-based bonuses (USD 195–390 tiers).",
+    "Customer pricing: USD 38/mo card plan below USD 2,600 monthly spend (waived above).",
+    "Partner wants scalable referral link, not manual email introductions.",
+    "Compliance requirements: US entity, incorporation docs, proof of US operations.",
+    "Partner interested in podcast and cross-promotion opportunities.",
+    "Limitation communicated: no direct card-payment acceptance."
+  ],
+  "evidence": [
+    {
+      "type": "turn",
+      "turnNum": 6,
+      "text": "Yes, I use some myself and recommend them. Usually I receive nothing for the recommendation.",
+      "ref": "M01"
+    },
+    {
+      "type": "turn",
+      "turnNum": 9,
+      "text": "The activation payment is USD 260 when a referred company gets its account approved...",
+      "ref": "M01"
+    },
+    {
+      "type": "turn",
+      "turnNum": 20,
+      "text": "It cannot depend on me manually writing every email. This needs to scale when people discover the offer through us.",
+      "ref": "M01"
+    },
+    {
+      "type": "turn",
+      "turnNum": 23,
+      "text": "receiving funds here means bank transfers, not directly taking card payments from customers",
+      "ref": "M01"
+    }
+  ],
+  "next_actions": [
+    "Send partner memorandum for signing.",
+    "Provide unique referral link.",
+    "Send partner commission documentation and customer pricing in writing.",
+    "Connect partner with marketing for podcast/cross-promotion."
+  ],
+  "coaching_notes": "Well-structured partnership meeting. Team member A covered commission, pricing, compliance requirements, and limitations transparently. The scalability concern (Turn 20) was handled by offering a referral link. Next steps are clear."
+}

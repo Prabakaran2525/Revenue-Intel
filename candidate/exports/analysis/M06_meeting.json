@@ -1,0 +1,44 @@
+{
+  "record_ref": "M06",
+  "source_type": "meeting",
+  "source_id": "657b9e9d-9472-5b01-a127-a648ad7e8cf7",
+  "route": "product_discovery",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Discovery discussion with Mapletrail Services (software development/testing company). Customer A handles finance for one branch (~65 finance staff company-wide). Discussion covered: (1) receivables/collections automation — high-value invoices (260-390/month across 65-78 customers), (2) cash application challenges, (3) expense management with cards, (4) payables. Customer showed interest in automation replacing manual contract review and follow-up.",
+  "key_findings": [
+    "High invoice volume: 260-390+ per month, many in foreign currency.",
+    "Manual collections process: contract review, delivery verification, customer follow-up.",
+    "Specific problem: expense-recovery invoice outstanding for months while normal invoices paid.",
+    "Centralized finance team (~65 people) with local branch operations.",
+    "Privacy/security concerns raised about payment information.",
+    "Interest expressed but no commitment — 'Please send the information and we can stay in touch.' (Turn 33)"
+  ],
+  "evidence": [
+    {
+      "type": "turn",
+      "turnNum": 12,
+      "text": "Around 65–78 customers. There may be several projects for each. Initially I would estimate 260–390 invoices a month, with a large total value.",
+      "ref": "M06"
+    },
+    {
+      "type": "turn",
+      "turnNum": 10,
+      "text": "One expense-recovery invoice has been outstanding for months even though the same client pays the normal service invoices.",
+      "ref": "M06"
+    },
+    {
+      "type": "turn",
+      "turnNum": 31,
+      "text": "Confidentiality is important. Payment information is sensitive. How is that protected",
+      "ref": "M06"
+    }
+  ],
+  "next_actions": [
+    "Send information about receivables automation and expense management.",
+    "Include security/compliance documentation (addressing confidentiality concern).",
+    "Focus on collections automation as primary value proposition.",
+    "Follow up after material review."
+  ],
+  "coaching_notes": "Team member A did extensive discovery. The receivables angle appears promising given the volume (260-390 invoices/month). The security question (Turn 31) suggests the customer is seriously considering but needs reassurance. Good pivoting between receivables and expense topics."
+}

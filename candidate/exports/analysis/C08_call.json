@@ -1,0 +1,33 @@
+{
+  "record_ref": "C08",
+  "source_type": "call",
+  "source_id": "129497b2-8e1d-5e01-919c-e8a852b5ff68",
+  "route": "sales_prospecting",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Meera cold-called Mr Raghav to discuss consolidating expense and payables processes. Raghav was receptive, mentioned a colleague in people operations who handles frontline processes and locations, and who may have been looking at a similar solution. Provided email: contact08@example.com.",
+  "key_findings": [
+    "Warm reception — prospect engaged and provided referral.",
+    "Internal champion potential: colleague in people ops may already be looking for a solution.",
+    "Email provided: contact08@example.com.",
+    "SpendNest was positioned as complementing existing enterprise systems."
+  ],
+  "evidence": [
+    {
+      "type": "quote",
+      "text": "The colleague handling our people operations also deals with frontline processes and the locations. I think we may have been looking at a solution, but I don't know the details.",
+      "ref": "C08"
+    },
+    {
+      "type": "quote",
+      "text": "If you send him a proposal and say you spoke with me, he can take a look.",
+      "ref": "C08"
+    }
+  ],
+  "next_actions": [
+    "Send proposal to contact08@example.com mentioning Raghav's referral.",
+    "Focus proposal on payment execution, cards, and location-level expense management.",
+    "Follow up within one week."
+  ],
+  "coaching_notes": "Good call by Meera. Getting a referral to the right person is valuable. The mention of 'may have been looking at a solution' suggests existing pain. Follow-up should be prompt."
+}

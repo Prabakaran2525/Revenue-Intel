@@ -1,0 +1,31 @@
+{
+  "record_ref": "C01",
+  "source_type": "call",
+  "source_id": "2ec4404c-beee-5377-a63c-aab701da08ed",
+  "route": "sales_prospecting",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Arun cold-called Pranav at Harborlight Advisory to discuss partnership for outsourced finance leadership firms. Pranav was unreceptive, questioned the call source, and declined interest, stating their processes are already advanced.",
+  "key_findings": [
+    "Prospect explicitly rejected: \"I didn't ask for this call, and I'm not interested.\"",
+    "Prospect claims advanced automation: \"Our processes are already very automated. We have a fairly advanced setup.\"",
+    "Call source was professional networking outreach programme."
+  ],
+  "evidence": [
+    {
+      "type": "quote",
+      "text": "I didn't ask for this call, and I'm not interested. This number is for my work, not for people to sell things to me.",
+      "ref": "C01"
+    },
+    {
+      "type": "quote",
+      "text": "Our processes are already very automated. We have a fairly advanced setup, so I don't think this is something we need.",
+      "ref": "C01"
+    }
+  ],
+  "next_actions": [
+    "Do not call back. Prospect explicitly declined.",
+    "Remove from active call list to avoid repeat contact."
+  ],
+  "coaching_notes": "Arun handled the rejection professionally and was transparent about the cold call nature. Good discipline in disclosing the call source when asked. The prospect's firm (outsourced finance leadership) could be a valid target but this individual does not want contact."
+}

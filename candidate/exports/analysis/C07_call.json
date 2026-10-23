@@ -1,0 +1,39 @@
+{
+  "record_ref": "C07",
+  "source_type": "call",
+  "source_id": "428817fa-7e9e-5418-a7d4-bb396d28dfbf",
+  "route": "partnership",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Dev called Aditya at Willowbank Advisory to explore a partnership. Willowbank helps clients incorporate companies and typically refers them to providers for business accounts. SpendNest offers virtual accounts for registered businesses. Aditya was open to receiving a proposal via messaging app. Next steps: send details, follow-up call Monday.",
+  "key_findings": [
+    "Willowbank Advisory helps with overseas incorporation.",
+    "They already refer clients to account providers — existing referral workflow.",
+    "Aditya was receptive: \"Yes, that's fine\" to Monday follow-up.",
+    "Communication preference: messaging app, not email.",
+    "Partnership model similar to M01 (Harborpath Advisory)."
+  ],
+  "evidence": [
+    {
+      "type": "quote",
+      "text": "We'd like to partner with advisory firms such as yours so your clients can access a virtual business account after incorporation.",
+      "ref": "C07"
+    },
+    {
+      "type": "quote",
+      "text": "Do you currently refer clients to providers for that part of the process? Yes, that is something we normally do.",
+      "ref": "C07"
+    },
+    {
+      "type": "quote",
+      "text": "could you message me on our chat app and send whatever proposal you have?",
+      "ref": "C07"
+    }
+  ],
+  "next_actions": [
+    "Send partnership proposal via messaging app (same phone number).",
+    "Schedule follow-up call for Monday.",
+    "Prepare similar materials to M01 (Harborpath) partner discussion."
+  ],
+  "coaching_notes": "Dev identified a strong fit — Willowbank already does the referral workflow. Good discovery question about current referral practices. The messaging app preference should be noted and respected."
+}

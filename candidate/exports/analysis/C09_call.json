@@ -1,0 +1,39 @@
+{
+  "record_ref": "C09",
+  "source_type": "call",
+  "source_id": "4a1de681-f884-55e8-b1ad-de22d17cd959",
+  "route": "sales_prospecting",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Meera cold-called Mr Vedant at a company with ~130 retail locations. They have developed internal expense software and are not currently looking for external solutions. Vedant referred Meera to the business head, Mr Rishabh, via professional networking site, but explicitly requested his name not be used.",
+  "key_findings": [
+    "130 stores with internally developed software.",
+    "Not actively looking: \"at present we aren't looking for anything outside the organisation.\"",
+    "Referral given to Mr Rishabh (business head) via professional networking site.",
+    "Privacy condition: \"please don't use my name.\"",
+    "Unclear whether internal system also executes payments."
+  ],
+  "evidence": [
+    {
+      "type": "quote",
+      "text": "We have developed our own software internally, so at present we aren't looking for anything outside the organisation.",
+      "ref": "C09"
+    },
+    {
+      "type": "quote",
+      "text": "you can find our business head, Mr Rishabh, on a professional networking site",
+      "ref": "C09"
+    },
+    {
+      "type": "quote",
+      "text": "No, please don't use my name.",
+      "ref": "C09"
+    }
+  ],
+  "next_actions": [
+    "Find Mr Rishabh on professional networking site.",
+    "Contact Rishabh WITHOUT mentioning Vedant's name.",
+    "Frame outreach around gaps in internal software (specifically payment execution)."
+  ],
+  "coaching_notes": "Meera asked good qualifying questions and respected the privacy request. The question about whether internal software also makes payments was strategic — identifies a potential gap. However, respecting the name condition is essential."
+}

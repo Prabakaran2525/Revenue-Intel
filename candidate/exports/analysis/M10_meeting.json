@@ -1,0 +1,50 @@
+{
+  "record_ref": "M10",
+  "source_type": "meeting",
+  "source_id": "337f297d-9385-5b82-9e54-5019c1ed912c",
+  "route": "internal_training",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Internal training session on SpendNest's billing workflow. Team member A (trainer) walked through: subscription components, invoice generation/clearing, due date flexibility, payment retry sequence (Days 1-3-7-10), account freeze procedures, and recovery process. Key insight: the displayed due date and allowed collection period differ.",
+  "key_findings": [
+    "Invoice due period is nominally 7 days but can extend to month-end.",
+    "End-of-month invoices may get mid-next-month extension.",
+    "Payment retry sequence: Day 1 (generate), Day 3 (retry), Day 7 (warning retry), Day 10 (freeze if failed).",
+    "Account freeze requires manual intervention to unfreeze — just topping up doesn't work.",
+    "Operations must manually adjust next billing date after clearing frozen invoice.",
+    "Zero-value invoices are legitimate (no charge due in cycle).",
+    "Team member B lacks back-office super-admin access."
+  ],
+  "evidence": [
+    {
+      "type": "turn",
+      "turnNum": 7,
+      "text": "The nominal due period is seven days, but we sometimes give the customer until the end of the month.",
+      "ref": "M10"
+    },
+    {
+      "type": "turn",
+      "turnNum": 15,
+      "text": "Suppose the invoice is INR 6,240 but the wallet contains INR 6,110. The deduction fails",
+      "ref": "M10"
+    },
+    {
+      "type": "turn",
+      "turnNum": 17,
+      "text": "Simply topping up a frozen account does not complete the whole recovery flow",
+      "ref": "M10"
+    },
+    {
+      "type": "turn",
+      "turnNum": 18,
+      "text": "Clearing the payment without checking that date can leave the next cycle wrong.",
+      "ref": "M10"
+    }
+  ],
+  "next_actions": [
+    "Arrange back-office super-admin access for Team member B.",
+    "Document billing workflow and edge cases for ops team reference.",
+    "Schedule follow-up training session."
+  ],
+  "coaching_notes": "Well-structured training session. Team member A covered edge cases thoroughly (zero-value invoices, freeze/unfreeze, date mismatch). The manual adjustment requirement after freeze recovery is a known process gap that could cause billing errors if not followed."
+}

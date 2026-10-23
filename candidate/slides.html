@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revenue Intelligence Inbox - 5 Slide Presentation</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: #0a0e1a;
+      color: #f1f5f9;
+      line-height: 1.5;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .slide {
+      background: #0f1629;
+      border: 1px solid rgba(99, 102, 241, 0.2);
+      border-radius: 16px;
+      padding: 40px;
+      aspect-ratio: 16 / 9;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+      page-break-after: always;
+    }
+    .slide-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 20px;
+    }
+    .slide-badge {
+      background: #6366f1;
+      color: white;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      letter-spacing: 1px;
+    }
+    .slide-title-block h2 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #f1f5f9;
+    }
+    .slide-title-block p {
+      font-size: 13px;
+      color: #94a3b8;
+    }
+    .slide-body {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      flex: 1;
+    }
+    .card {
+      background: #1a1f35;
+      border: 1px solid rgba(40, 48, 77, 0.8);
+      border-radius: 12px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+    }
+    .card h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #818cf8;
+      margin-bottom: 16px;
+    }
+    .card ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .card li {
+      font-size: 13px;
+      color: #cbd5e1;
+      line-height: 1.6;
+      position: relative;
+      padding-left: 18px;
+    }
+    .card li::before {
+      content: '•';
+      color: #6366f1;
+      position: absolute;
+      left: 0;
+      font-size: 18px;
+      line-height: 1;
+      top: 0;
+    }
+    .nav-bar {
+      position: sticky;
+      top: 20px;
+      background: rgba(26, 31, 53, 0.9);
+      backdrop-filter: blur(12px);
+      padding: 12px 24px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      z-index: 100;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background: #6366f1;
+      color: white;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 13px;
+    }
+    @media print {
+      body { background: white; color: black; padding: 0; }
+      .nav-bar { display: none; }
+      .slide {
+        border: none;
+        box-shadow: none;
+        background: white;
+        color: black;
+        aspect-ratio: auto;
+        height: 100vh;
+        page-break-after: always;
+      }
+      .card { background: #f8fafc; border: 1px solid #cbd5e1; color: black; }
+      .card h3 { color: #4338ca; }
+      .card li { color: #334155; }
+      .slide-title-block h2 { color: #0f172a; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav-bar">
+      <div>
+        <strong>SpendNest Revenue Intelligence</strong> — 5 Executive Submission Slides
+      </div>
+      <div style="display:flex;gap:12px;">
+        <button onclick="window.print()" class="btn" style="background:#22c55e">🖨️ Print / Save as PDF</button>
+        <a href="app.html" class="btn">🚀 Open Workspace (app.html)</a>
+      </div>
+    </div>
+
+    <!-- Slide 1 -->
+    <div class="slide" id="slide1">
+      <div class="slide-header">
+        <span class="slide-badge">SLIDE 01</span>
+        <div class="slide-title-block">
+          <h2>The Manager Problem & Key Findings</h2>
+          <p>Navigating noisy calls, late transcripts, and conflicting CRM signals</p>
+        </div>
+      </div>
+      <div class="slide-body">
+        <div class="card">
+          <h3>The Manager Dilemma</h3>
+          <ul>
+            <li>Revenue leaders receive fragmented calls, calendar invites, and unstandardized notes across siloed tools.</li>
+            <li>Transcripts arrive asynchronously or fail to record entirely.</li>
+            <li>Stored CRM labels frequently contradict prospect statements in real conversations.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Key Findings (21 Aug 2026)</h3>
+          <ul>
+            <li>44 logical interactions: 30 calls + 14 meetings.</li>
+            <li>Text coverage: Only 18 records (40.9%) have usable text; 26 records lack text and must not have fake summaries invented.</li>
+            <li>Call connection rate: 36.7% (11 of 30 calls connected; unrecorded excluded).</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Top Three Actionable Signals</h3>
+          <ul>
+            <li><strong>M07 (Willowfield):</strong> 4 severe software bugs reported (turns 2, 8, 16, 22); escalated to dev team.</li>
+            <li><strong>M03 (Asterloom):</strong> Pricing quote conflict (INR 26k vs 39k document) surfaced in Turn 24.</li>
+            <li><strong>C10 (Meadowbrick):</strong> Contact departed 6 months ago (Turn 1); CRM list updated.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide" id="slide2">
+      <div class="slide-header">
+        <span class="slide-badge">SLIDE 02</span>
+        <div class="slide-title-block">
+          <h2>Interface Choices & Deliberate Omissions</h2>
+          <p>Designing for cognitive clarity, rapid triage, and high trust</p>
+        </div>
+      </div>
+      <div class="slide-body">
+        <div class="card">
+          <h3>High-Density Command Center</h3>
+          <ul>
+            <li>Dark-mode SaaS workspace with glowing status badges and responsive layout.</li>
+            <li>Top-level metric cards act as live filters (e.g. clicking 'Needs Review' isolates exceptions).</li>
+            <li>Clean visual separation between calls and meetings, avoiding misleading aggregate conflation.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Slide-Out Inspector</h3>
+          <ul>
+            <li>Context-preserving drawer displays full turn-by-turn dialogue alongside extracted insights.</li>
+            <li>Explicit speaker attribution with timecodes for meetings.</li>
+            <li>Dedicated coaching notes and next-step ownership blocks.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>What We Deliberately Left Out</h3>
+          <ul>
+            <li>Speculative pipeline dollar values: no CRM deal table was provided, so guessing amounts produces false precision.</li>
+            <li>Cross-rep rankings: comparing outbound cold callers to demo meeting organizers is statistically invalid.</li>
+            <li>Distracting decorative charts that do not inform immediate managerial action.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide" id="slide3">
+      <div class="slide-header">
+        <span class="slide-badge">SLIDE 03</span>
+        <div class="slide-title-block">
+          <h2>Routing Architecture & The Difficult Case</h2>
+          <p>Evidence-backed taxonomy preventing pipeline contamination</p>
+        </div>
+      </div>
+      <div class="slide-body">
+        <div class="card">
+          <h3>Routing Taxonomy</h3>
+          <ul>
+            <li>Sales Prospecting (cold outreach qualification)</li>
+            <li>Sales Follow-up (active deal progression)</li>
+            <li>Partnership Development (referral networks)</li>
+            <li>Customer Success (support, bugs, onboarding)</li>
+            <li>Vendor Evaluation (SpendNest procuring)</li>
+            <li>Product Discovery (prospect demo)</li>
+            <li>Needs Review (missing or conflicting data)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>The Difficult Case: M02</h3>
+          <ul>
+            <li><strong>Ambiguity:</strong> Initial calendar metadata resembled an outbound sales meeting.</li>
+            <li><strong>Evidence:</strong> Transcript inspection showed SpendNest internal leadership negotiating issuing rails and pricing from LedgerBridge.</li>
+            <li><strong>Resolution:</strong> Routed to Vendor Evaluation with procurement next steps, keeping sales quota metrics unpolluted.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Export Organization</h3>
+          <ul>
+            <li>Structured output directory: exports/manifest.json/csv, exports/analysis/*.json, exports/manager_brief.md.</li>
+            <li>Every manifest path is verified to exist on disk.</li>
+            <li>1-click ZIP archive generator built into the UI.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide" id="slide4">
+      <div class="slide-header">
+        <span class="slide-badge">SLIDE 04</span>
+        <div class="slide-title-block">
+          <h2>Verification of Numbers & Evidence Tracing</h2>
+          <p>Mathematically sound denominators and quote-level auditability</p>
+        </div>
+      </div>
+      <div class="slide-body">
+        <div class="card">
+          <h3>Rigorous Numerical Checks</h3>
+          <ul>
+            <li><strong>Composite Identity:</strong> Keyed strictly by (source_type, source_id).</li>
+            <li><strong>Idempotency Proof:</strong> Re-importing batch 1 processes 44 records: 0 new, 0 updated, 44 skipped.</li>
+            <li><strong>Revision Ordering:</strong> Batch 2 updates M07 from rev 1 to 2 without adding a 45th record.</li>
+            <li><strong>Rep Distinction:</strong> 5 call reps separated from meeting organizers.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Auditable Evidence Anchors</h3>
+          <ul>
+            <li><strong>M04 Churn threat:</strong> "If we cannot resolve the credit limit issue, we will have to evaluate alternative platforms." (Turn 19)</li>
+            <li><strong>M09 Login failure:</strong> "The token link sent by the system had expired by the time our IT team attempted to authenticate." (Turn 4)</li>
+            <li><strong>C01 Rejection:</strong> "I didn't ask for this call, and I'm not interested." (Quote)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Handling Missing Material</h3>
+          <ul>
+            <li>26 records lack usable text (e.g. B01-B20, cancelled notetakers).</li>
+            <li>System displays explicit intake reasons rather than generating hallucinated summaries.</li>
+            <li>All 44 records maintain clear review and freshness states.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="slide" id="slide5">
+      <div class="slide-header">
+        <span class="slide-badge">SLIDE 05</span>
+        <div class="slide-title-block">
+          <h2>Trade-offs, AI Usage, Limitations & Roadmap</h2>
+          <p>Practical engineering decisions and paths to production</p>
+        </div>
+      </div>
+      <div class="slide-body">
+        <div class="card">
+          <h3>AI Usage & Determinism</h3>
+          <ul>
+            <li>Pre-generated analysis packaged in analysis.js for 100% offline reliability, speed, and privacy.</li>
+            <li>Zero runtime token costs, credentials, or API failure points.</li>
+            <li>Late transcript updates trigger stale flags for human managerial sign-off.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Architectural Trade-offs</h3>
+          <ul>
+            <li><strong>Vanilla JS & LocalStorage:</strong> chosen over complex Docker/Node stacks to run immediately on any reviewer machine.</li>
+            <li>Manual route overrides survive re-imports, browser refreshes, and late updates.</li>
+            <li><strong>Limitation:</strong> Single-user browser storage; production would use PostgreSQL.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Production Roadmap</h3>
+          <ul>
+            <li>Multi-tenant Cloud DB with row-level security and audit logging.</li>
+            <li>Real-time audio streaming with Whisper/Deepgram STT.</li>
+            <li>Bi-directional CRM sync (Salesforce/HubSpot) to automatically assign follow-ups and update stages.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

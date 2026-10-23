@@ -1,0 +1,34 @@
+{
+  "record_ref": "C06",
+  "source_type": "call",
+  "source_id": "12216d5c-e254-52c6-b344-47de4c6e1ae5",
+  "route": "sales_prospecting",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Meera cold-called Mr Nikhil at a retailer with 120+ stores. The prospect has a mixed-model approach with significant automation connected through their business management system, with head office managing full visibility. Declined interest and asked not to be called again.",
+  "key_findings": [
+    "Large prospect: 120+ stores.",
+    "Fully automated: \"The essential processes are automated and connected through our business management system. Head office manages it, and we have full visibility.\"",
+    "Uses a mixed model for local expenses.",
+    "Has a separate monitoring department.",
+    "Clear rejection: \"If a particular need comes up later, we will reach out.\""
+  ],
+  "evidence": [
+    {
+      "type": "quote",
+      "text": "We have quite a lot of automation, with a mixed model where needed. The essential processes are automated and connected through our business management system.",
+      "ref": "C06"
+    },
+    {
+      "type": "quote",
+      "text": "there is also a separate department here monitoring this every day",
+      "ref": "C06"
+    }
+  ],
+  "next_actions": [
+    "Do not follow up further. Prospect asked not to be contacted again.",
+    "Note for team: suppress this number/contact from future outbound lists.",
+    "Document competitive insight: large retailer with integrated BMS."
+  ],
+  "coaching_notes": "Meera was transparent about the cold call nature and gathered useful intel about the prospect's setup. Good question about cash advances vs. cards — this is the kind of qualifying question that helps. The prospect was firm but polite."
+}
