@@ -1,0 +1,31 @@
+{
+  "record_ref": "C02",
+  "source_type": "call",
+  "source_id": "4b870624-8aad-5315-a60e-0db95981cf99",
+  "route": "sales_followup",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Arun called Fernhaven Group asking for Leela. Kavya (receptionist/gatekeeper) confirmed Leela was not in the office. Arun opted to leave a voicemail.",
+  "key_findings": [
+    "Target contact Leela was unavailable.",
+    "Gatekeeper interaction - no business discussion occurred.",
+    "Call was directed to voicemail."
+  ],
+  "evidence": [
+    {
+      "type": "quote",
+      "text": "Could I speak with Leela, please?",
+      "ref": "C02"
+    },
+    {
+      "type": "quote",
+      "text": "It looks as though she isn't in the office today. Would you like to leave a message with me, or would you prefer her voicemail?",
+      "ref": "C02"
+    }
+  ],
+  "next_actions": [
+    "Retry calling Leela at Fernhaven Group.",
+    "Check if voicemail was received and follow up."
+  ],
+  "coaching_notes": "Brief gatekeeper interaction. Arun was polite and efficient. No substantive business discussion possible — should retry."
+}

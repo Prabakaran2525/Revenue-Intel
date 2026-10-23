@@ -1,0 +1,33 @@
+{
+  "record_ref": "C04",
+  "source_type": "call",
+  "source_id": "bcdcbf56-d338-5c78-9a97-42c2fc1c9931",
+  "route": "sales_followup",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Arun left a voicemail for Ritesh at Lanternpath Media. Following up on their consideration of the expense platform. Initial information had been sent to the wrong email address; a corrected address was subsequently used.",
+  "key_findings": [
+    "Active deal: expense platform consideration for Lanternpath Media.",
+    "Prior communication issue: information initially sent to wrong email.",
+    "Corrected email was used but no response confirmed yet.",
+    "This was a voicemail — no live conversation."
+  ],
+  "evidence": [
+    {
+      "type": "quote",
+      "text": "I'm following up on your consideration of our expense platform for Lanternpath Media.",
+      "ref": "C04"
+    },
+    {
+      "type": "quote",
+      "text": "My understanding is that our information first went to the wrong email address. We subsequently used the corrected address you gave us",
+      "ref": "C04"
+    }
+  ],
+  "next_actions": [
+    "Wait for callback from Ritesh.",
+    "If no response within 2-3 days, try calling again or use alternate contact method.",
+    "Confirm the corrected email address actually received the materials."
+  ],
+  "coaching_notes": "Arun was clear and professional in the voicemail. The wrong-email issue is a process concern — should verify delivery confirmation. Voicemail is well-structured with clear ask and callback number."
+}

@@ -4,6 +4,10 @@ A specialized workspace designed for revenue leaders to ingest heterogeneous cal
 
 Built for the Volopay Revenue Intelligence Inbox engineering assessment.
 
+> 🚀 **Live Hosted Application:** [https://prabakaran2525.github.io/Revenue-Intel/](https://prabakaran2525.github.io/Revenue-Intel/)  
+> 📊 **5-Slide Presentation Deck:** [https://prabakaran2525.github.io/Revenue-Intel/slides.html](https://prabakaran2525.github.io/Revenue-Intel/slides.html)  
+> 📋 **Assignment Brief & Library:** [https://prabakaran2525.github.io/Revenue-Intel/assignment.html](https://prabakaran2525.github.io/Revenue-Intel/assignment.html)  
+
 ---
 
 ## 1. Quick Start & Execution
@@ -12,19 +16,19 @@ The application is built purely with **Vanilla HTML5, CSS3, and modern JavaScrip
 
 ### Running Locally
 
-- **Option A (Direct File Launch):** Double-click [app.html](file:///c:/Users/praba/Downloads/candidate-v1.0%20(3)_layout_fixed%20(1)(2) (3) (1)/candidate/app.html) in your browser. (The included `data_bundle.js` ensures that local file loading works without CORS issues).
+- **Option A (Direct File Launch):** Double-click `index.html` or `app.html` in your browser. (The included `data_bundle.js` ensures that local file loading works without CORS issues).
 - **Option B (Local Web Server):** 
   ```bash
   # Using Python
   python -m http.server 8000
-  # Then open http://localhost:8000/app.html
+  # Then open http://localhost:8000/
   ```
   or:
   ```bash
   # Using Node / npx
   npx serve .
   ```
-- **Option C (Original Assignment Reader):** Open [index.html](file:///c:/Users/praba/Downloads/candidate-v1.0%20(3)_layout_fixed%20(1)(2) (3) (1)/candidate/index.html) to read the full de-identified conversation library and assignment documentation. A direct launcher button is pinned in the top navigation to switch to `app.html`.
+- **Option C (Original Assignment Reader):** Open `assignment.html` to read the full de-identified conversation library and assignment documentation. A direct launcher button is pinned in the top navigation to switch to `app.html`.
 
 ---
 
@@ -83,7 +87,7 @@ Every dashboard headline number has an explicit, mathematically sound definition
 
 ## 5. Output Organization & Export Artifacts
 
-Generated outputs are organised in the repository under [exports/](file:///c:/Users/praba/Downloads/candidate-v1.0%20(3)_layout_fixed%20(1)(2) (3) (1)/candidate/exports):
+Generated outputs are organised in the repository under `exports/`:
 
 ```
 exports/

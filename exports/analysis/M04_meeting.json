@@ -1,0 +1,51 @@
+{
+  "record_ref": "M04",
+  "source_type": "meeting",
+  "source_id": "b0f79b3d-37ba-52f9-b2bc-58b159dd6d91",
+  "route": "customer_success",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Customer success discussion with Cedarwave Distribution about a mandatory card programme migration. Current programme being shut down; replacement is still prepaid (not credit). Customer strongly needs credit facility (INR 1.3 crore credit line exists with bank). Discussion explored: (1) migrating to new prepaid programme, (2) potentially connecting bank-issued credit cards to SpendNest platform, (3) department structure issues. Multiple open items need follow-up.",
+  "key_findings": [
+    "MANDATORY MIGRATION: Current card programme closing in weeks. Users must re-do KYC.",
+    "Customer's primary need is credit, not prepaid: 'moving from prepaid to credit is the main issue for us.' (Turn 11)",
+    "Existing bank credit line: INR 1.3 crore. Cards issued to few people.",
+    "Bank card feed is post-settlement only — no real-time balance visibility.",
+    "Customer B questioned value: 'What do we gain by adding SpendNest?' (Turn 26)",
+    "Previous bank card enquiry was put on hold from customer's side.",
+    "Department structure issue also unresolved."
+  ],
+  "evidence": [
+    {
+      "type": "turn",
+      "turnNum": 4,
+      "text": "The plan is to close the old programme in the coming weeks, so we need to organise the transition.",
+      "ref": "M04"
+    },
+    {
+      "type": "turn",
+      "turnNum": 11,
+      "text": "moving from prepaid to credit is the main issue for us. At some stage we will have to consider another option for that.",
+      "ref": "M04"
+    },
+    {
+      "type": "turn",
+      "turnNum": 22,
+      "text": "We already have a corporate credit line of about INR 1.3 crore.",
+      "ref": "M04"
+    },
+    {
+      "type": "turn",
+      "turnNum": 26,
+      "text": "What do we gain by adding SpendNest? We can already see transactions in the bank portal.",
+      "ref": "M04"
+    }
+  ],
+  "next_actions": [
+    "Check if existing bank-issued credit cards can join the transaction-feed programme.",
+    "Confirm accounting integration feasibility for bank-card transactions.",
+    "Arrange session for department structure/user moves.",
+    "Prepare migration plan with parallel old/new operation."
+  ],
+  "coaching_notes": "RISK: Customer B's question 'What do we gain?' signals churn risk. The value proposition for bank-card integration (receipt collection, review, accounting) must be clearly articulated. The mandatory migration creates urgency but also frustration. The credit need is existential — if SpendNest cannot offer credit path, customer may look at alternatives."
+}

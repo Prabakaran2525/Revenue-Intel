@@ -1,0 +1,52 @@
+{
+  "record_ref": "M03",
+  "source_type": "meeting",
+  "source_id": "398672e7-62dd-5afd-846d-0237d49792fb",
+  "route": "product_discovery",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Demo and evaluation call with Asterloom Systems (~65 employees). Customer A (likely decision influencer) and Customer B (finance) explored prepaid cards for domestic employee expenses (INR 10-13 lakh/month). Currently using personal-spend-and-reimburse model. Key issues: no credit facility (prepaid only), workflow approval process, accounting integration gaps (auto-sync after approval not yet available). Price discussed: INR 26,000/year recurring + INR 13,000 one-time setup.",
+  "key_findings": [
+    "Current pain: employees reluctant to personally fund large travel bookings.",
+    "Prepaid vs. credit expectation mismatch: Customer A expected credit cards.",
+    "Price discrepancy raised: previously quoted INR 26,000, now INR 39,000 (resolved: 26K recurring + 13K one-time setup).",
+    "Would start with 4-5 employees as pilot.",
+    "CFO approval needed — not yet briefed.",
+    "Overseas provider already in place (satisfied, not looking to change).",
+    "Vendor payment volume mentioned: INR 26-39 lakh/month, mostly rent.",
+    "Reimbursement module is separate/additional charge."
+  ],
+  "evidence": [
+    {
+      "type": "turn",
+      "turnNum": 6,
+      "text": "Wait, these are prepaid? I had thought about a corporate credit card. So we put money in before anyone spends, and there is no credit facility on these domestic cards?",
+      "ref": "M03"
+    },
+    {
+      "type": "turn",
+      "turnNum": 23,
+      "text": "But you previously told me INR 26,000. Why has that become INR 39,000?",
+      "ref": "M03"
+    },
+    {
+      "type": "turn",
+      "turnNum": 26,
+      "text": "we need help now, but would start with perhaps four or five employees",
+      "ref": "M03"
+    },
+    {
+      "type": "turn",
+      "turnNum": 28,
+      "text": "Our CFO approves the larger payments. We need to explain the proposal to them",
+      "ref": "M03"
+    }
+  ],
+  "next_actions": [
+    "Send cards proposal with clear pricing breakdown (recurring vs. one-time).",
+    "Include information about other modules (reimbursement, vendor payments).",
+    "Wait for customer to brief CFO internally.",
+    "Do not schedule next call — customer will decide: 'Let us make that decision internally before scheduling more.' (Turn 36)"
+  ],
+  "coaching_notes": "IMPORTANT: Price discrepancy (Turn 23) caused friction. In future, ensure quoted prices are consistent. The customer noticed and it undermined trust. Auto-sync after approval is a product gap acknowledged on-call. The prepaid/credit distinction should be set early to avoid surprises."
+}

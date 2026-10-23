@@ -1,0 +1,51 @@
+{
+  "record_ref": "M02",
+  "source_type": "meeting",
+  "source_id": "1a21c409-c050-5787-90af-2667e057e1b6",
+  "route": "vendor_evaluation",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "SpendNest team evaluated LedgerBridge as a potential vendor for compliant electronic invoicing across Singapore, Australia, and India. LedgerBridge offers both issuing and receiving capabilities. Discussion covered technical integration (API-based), commercial models (country licence vs. per-customer), setup charges (EUR 2,600–6,500+), and timeline (Q4 target, but flexible). SpendNest wants written pricing before management review.",
+  "key_findings": [
+    "Strategic product extension: SpendNest building accounts receivable module.",
+    "Target markets: Singapore, Australia, India (Q4 target, but Q1 possible).",
+    "Two pricing models: country licences with usage vs. per-customer with included usage.",
+    "Setup charges: EUR 2,600 (basic) to EUR 6,500+ (supported).",
+    "Vendor prefers a walkthrough call over sending written pricing, but SpendNest needs written numbers for internal process.",
+    "Sandbox available for testing.",
+    "SpendNest has prospects discussing requirements but no confirmed pilot customers yet."
+  ],
+  "evidence": [
+    {
+      "type": "turn",
+      "turnNum": 1,
+      "text": "We want to understand whether LedgerBridge can give us compliant invoicing coverage across our operating markets.",
+      "ref": "M02"
+    },
+    {
+      "type": "turn",
+      "turnNum": 13,
+      "text": "We are aiming for the fourth quarter. We would start with Singapore and Australia, then India.",
+      "ref": "M02"
+    },
+    {
+      "type": "turn",
+      "turnNum": 31,
+      "text": "The basic setup begins at EUR 2,600; a more supported implementation starts at EUR 6,500",
+      "ref": "M02"
+    },
+    {
+      "type": "turn",
+      "turnNum": 34,
+      "text": "Our evaluation goes through product fit, the business reason, commercials, then references and support checks.",
+      "ref": "M02"
+    }
+  ],
+  "next_actions": [
+    "Complete volume template (countries, customer sizes, invoices issued/received).",
+    "Test LedgerBridge sandbox.",
+    "Schedule short explanation call after template completion.",
+    "Prepare management briefing with written pricing."
+  ],
+  "coaching_notes": "Team member A drove a well-structured evaluation. Good pushback on receiving written pricing (Turn 34). Team member B asked practical technical questions. The distinction between certain AP volumes and uncertain AR volumes (Turn 18) shows good analytical thinking."
+}

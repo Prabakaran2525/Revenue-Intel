@@ -1,0 +1,17 @@
+{
+  "record_ref": "B02",
+  "source_type": "call",
+  "source_id": "5747e4cd-e24f-5bed-bf74-9e3f326b2d77",
+  "route": "background_activity",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Inbound call by Leela, lasting 20 seconds. Classified as unresponsive by source system. No transcript supplied.",
+  "key_findings": [
+    "Unresponsive call — no substantive conversation.",
+    "Duration: 20 seconds.",
+    "Source classification: is_connected=false, is_conversation=false."
+  ],
+  "evidence": [],
+  "next_actions": [],
+  "coaching_notes": "Background call — no coaching applicable without transcript."
+}

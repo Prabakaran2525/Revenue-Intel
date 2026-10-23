@@ -734,6 +734,15 @@ function renderSidebar() {
         Stale Analysis
         ${metrics.staleCount > 0 ? `<span class="nav-badge warning">${metrics.staleCount}</span>` : ''}
       </div>
+      <div class="nav-section-title" style="margin-top: 16px">Deliverables</div>
+      <a class="nav-item" href="slides.html" target="_blank" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: var(--sp-sm);">
+        <span class="nav-icon">📊</span>
+        5-Slide Deck
+      </a>
+      <a class="nav-item" href="assignment.html" target="_blank" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: var(--sp-sm);">
+        <span class="nav-icon">📋</span>
+        Assignment Brief
+      </a>
     </nav>
     <div class="sidebar-footer">
       <div class="import-status">

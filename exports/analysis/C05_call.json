@@ -1,0 +1,38 @@
+{
+  "record_ref": "C05",
+  "source_type": "call",
+  "source_id": "75a6b94f-7717-5cfb-9e41-0acc94415e17",
+  "route": "sales_prospecting",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Meera cold-called a prospect with multiple stores. The prospect already has vendor management, payment execution, and store-level instant payments in place through providers including StoreHarbor. The prospect asked to receive a presentation for potential future consideration, with email confirmed as contact05@example.com.",
+  "key_findings": [
+    "Prospect has comprehensive existing setup including StoreHarbor.",
+    "Every feature mentioned was already covered: \"We already have that\" (repeated).",
+    "Weak interest: asked for presentation only as future reference if they change providers.",
+    "Email confirmed: contact05@example.com."
+  ],
+  "evidence": [
+    {
+      "type": "quote",
+      "text": "We already have that.",
+      "ref": "C05"
+    },
+    {
+      "type": "quote",
+      "text": "There are several. One is StoreHarbor, and we use others too.",
+      "ref": "C05"
+    },
+    {
+      "type": "quote",
+      "text": "If we ever decide to change the providers we already have, we could consider it then.",
+      "ref": "C05"
+    }
+  ],
+  "next_actions": [
+    "Send presentation to contact05@example.com.",
+    "Mark as low priority — prospect is satisfied with current providers.",
+    "Note competitive intelligence: StoreHarbor is a known competitor in this segment."
+  ],
+  "coaching_notes": "Meera handled repeated objections well. The prospect was polite but clearly not in buying mode. Good competitive intelligence gathered. Sending the presentation is fine but this should not be a high-priority follow-up."
+}

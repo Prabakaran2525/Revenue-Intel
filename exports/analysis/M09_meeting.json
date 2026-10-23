@@ -1,0 +1,50 @@
+{
+  "record_ref": "M09",
+  "source_type": "meeting",
+  "source_id": "4b5b9192-f3fc-505a-8e77-4d2ffaa54594",
+  "route": "customer_success",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Customer onboarding/support session covering two companies: Brookmint Holdings (invitation link expired twice, still unresolved) and Northkite Equipment (tax treatment corrected, workflow questions). Discussion included access control concerns — customer doesn't want shared mailbox admin access to create unintended permissions for AP officer.",
+  "key_findings": [
+    "BLOCKER: Brookmint Holdings invitation token expired. Fresh link also expired immediately.",
+    "Customer manages two companies: Brookmint Holdings (larger, ~most employees) and Northkite Equipment (smaller, few users).",
+    "Access control concern: shared mailbox admin access would give AP officer unintended administrator rights.",
+    "Customer self-corrected tax treatment in Northkite Equipment.",
+    "Missing receipt and supplier creation permission issues identified.",
+    "Customer wants separate personal work identities for the two companies."
+  ],
+  "evidence": [
+    {
+      "type": "turn",
+      "turnNum": 1,
+      "text": "The invitation for Brookmint Holdings did not work when I tried it. It may have expired",
+      "ref": "M09"
+    },
+    {
+      "type": "turn",
+      "turnNum": 21,
+      "text": "It says the token has expired. This is the fresh message we just received.",
+      "ref": "M09"
+    },
+    {
+      "type": "turn",
+      "turnNum": 17,
+      "text": "I do not want this to depend on trusting someone not to use access that is available. That does not solve the permission problem.",
+      "ref": "M09"
+    },
+    {
+      "type": "turn",
+      "turnNum": 24,
+      "text": "Brookmint Holdings has most of the employees. Before that becomes busy, I need to answer their questions",
+      "ref": "M09"
+    }
+  ],
+  "next_actions": [
+    "URGENT: Investigate expired token issue with team (promised update same day or Monday).",
+    "Resolve Brookmint Holdings login before employee onboarding begins.",
+    "Advise on access control setup (separate admin email or narrower role).",
+    "Offer refresher training session."
+  ],
+  "coaching_notes": "The expired-token issue is a significant blocker that risks delaying the larger company's onboarding. Team member A appropriately escalated. The access control discussion (Turns 9-18) shows mature security thinking from the customer — the response should offer a concrete solution, not just trust-based workarounds."
+}

@@ -1,0 +1,34 @@
+{
+  "record_ref": "C10",
+  "source_type": "call",
+  "source_id": "b747f592-810e-583c-9b81-8db5ab035806",
+  "route": "sales_prospecting",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Meera called regarding Meadowbrick, but Aniket no longer works there. He has moved to a manufacturing company. He agreed to receive a brief via messaging app but explicitly declined a follow-up call. Manufacturing could be a new target vertical.",
+  "key_findings": [
+    "Contact data is stale — Aniket left Meadowbrick.",
+    "Now in manufacturing sector (different from original retail/distribution target).",
+    "Will only engage via messaging app, not phone: \"I will contact you if there is anything to discuss.\"",
+    "Meadowbrick remains without a contact."
+  ],
+  "evidence": [
+    {
+      "type": "quote",
+      "text": "I don't work there anymore.",
+      "ref": "C10"
+    },
+    {
+      "type": "quote",
+      "text": "No. I said I will contact you if there is anything to discuss.",
+      "ref": "C10"
+    }
+  ],
+  "next_actions": [
+    "Send brief via messaging app.",
+    "Do not call back — prospect explicitly declined.",
+    "Update CRM: mark Aniket's Meadowbrick association as stale.",
+    "Find new contact at Meadowbrick if still a target account."
+  ],
+  "coaching_notes": "Data quality issue exposed. Meera adapted well to learning the prospect had changed companies. Correctly identified manufacturing as also relevant. However, the prospect was firm about no callback — should respect."
+}

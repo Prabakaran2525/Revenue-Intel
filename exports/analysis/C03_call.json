@@ -1,0 +1,38 @@
+{
+  "record_ref": "C03",
+  "source_type": "call",
+  "source_id": "20d509ba-d589-5334-9aef-ea4ce6105b1a",
+  "route": "sales_followup",
+  "manual_override": false,
+  "analysis_stale": false,
+  "summary": "Kiran followed up with Milan about developer API access that was discussed previously. Milan acknowledged interest but said it wasn't essential enough to invest heavily. Call had severe audio quality issues (roaming). Agreed to continue via email ('Developer access and event notifications — follow-up') and a call on Monday or Tuesday.",
+  "key_findings": [
+    "Prior conversation existed about developer functionality / API access.",
+    "Price is a barrier: \"it isn't essential enough for us to spend much on it.\"",
+    "Audio quality was poor (prospect on roaming), limiting the conversation.",
+    "Clear next steps agreed: email follow-up, then Monday/Tuesday call."
+  ],
+  "evidence": [
+    {
+      "type": "quote",
+      "text": "We discussed developer access a while ago, and you asked for about five weeks before following up.",
+      "ref": "C03"
+    },
+    {
+      "type": "quote",
+      "text": "it isn't essential enough for us to spend much on it. I would need to check with the team.",
+      "ref": "C03"
+    },
+    {
+      "type": "quote",
+      "text": "Could we do this by email? Or call on Monday a bit earlier, when I'm back indoors?",
+      "ref": "C03"
+    }
+  ],
+  "next_actions": [
+    "Send email with subject 'Developer access and event notifications — follow-up'.",
+    "Schedule call for Monday or Tuesday (earlier time when Milan is indoors).",
+    "Prepare pricing options that address budget concerns."
+  ],
+  "coaching_notes": "Good persistence on a warm lead. Audio issues were handled well — switching to email is practical. The budget objection needs a solution: consider offering a tier or scaled pricing."
+}
